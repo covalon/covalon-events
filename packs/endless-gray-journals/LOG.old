@@ -1,5 +1,5 @@
-2024/02/13-09:12:12.701 4dac Recovering log #10
-2024/02/13-09:12:12.702 4dac Level-0 table #12: started
-2024/02/13-09:12:12.706 4dac Level-0 table #12: 14332 bytes OK
-2024/02/13-09:12:12.712 4dac Delete type=0 #10
-2024/02/13-09:12:12.713 4dac Delete type=3 #8
+2024/02/14-23:15:11.837 3194 Recovering log #13
+2024/02/14-23:15:11.838 3194 Level-0 table #15: started
+2024/02/14-23:15:11.841 3194 Level-0 table #15: 14543 bytes OK
+2024/02/14-23:15:11.848 3194 Delete type=0 #13
+2024/02/14-23:15:11.849 3194 Delete type=3 #11
