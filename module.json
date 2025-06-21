@@ -5,7 +5,7 @@
     "url": "https://github.com/covalon/covalon-events",
     "manifest": "https://github.com/covalon/covalon-events/releases/latest/download/module.json",
     "download": "https://github.com/covalon/covalon-events/releases/latest/download/module.zip",
-    "version": "2.0",
+    "version": "3.0",
     "compatibility": {
         "minimum": "11.305",
         "verified": "12"
@@ -18,12 +18,59 @@
                 "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
                 "compatibility": {
                     "minimum": "5.3.0",
-                    "verified": "6"
+                    "verified": "6.12.4"
                 }
             }
         ]
     },
     "packs": [
+  {
+    "label": "Secrets of the Heart MTE Actors",
+    "name": "secrets-of-the-heart-mte-actors",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/secrets-of-the-heart-mte-actors",
+    "type": "Actor",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Secrets of the Heart MTE Items",
+    "name": "secrets-of-the-heart-mte-items",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/secrets-of-the-heart-mte-items",
+    "type": "Item",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Secrets of the Heart MTE Journals",
+    "name": "secrets-of-the-heart-mte-journals",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/secrets-of-the-heart-mte-journals",
+    "type": "JournalEntry",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Secrets of the Heart MTE Scenes",
+    "name": "secrets-of-the-heart-mte-scenes",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/secrets-of-the-heart-mte-scenes",
+    "type": "Scene",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
         {
             "label": "Endless Gray Actors",
             "name": "endless-gray-actors",
@@ -87,6 +134,7 @@
             "name": "Covalon Events",
             "sorting": "a",
             "folders": [
+{ "name": "Secrets of the Heart", "sorting": "a", "packs": ["secrets-of-the-heart-mte-actors", "secrets-of-the-heart-mte-journals", "secrets-of-the-heart-mte-scenes", "secrets-of-the-heart-mte-items"] },
                 {
                     "name": "Endless Gray",
                     "sorting": "a",
